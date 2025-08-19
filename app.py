@@ -19,4 +19,4 @@ def dbs():
     return(render_template("dbs.html", r=(-50.6*q)+90.2))
 
 if __name__ == "__main__":
-    app.run(port=1234)
+    app.run(port=9938)
